@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --background-nav: #02070a;
+  --background-primary: #080b14;
+  --background-secondary: #000306;
+
+  --background-card: #02070d;
+
+  --background-button-1: #000305;
+  --background-button-2: #02070d;
+
+  --color-primary: #006de1;
+  --color-primary-light: #021229;
+  --color-secondary: #e82c35;
+  --color-secondary-light: #360b10;
+  --color-secondary-border: #70151d;
+
+  --color-text-primary: #8f8f8f;
+  --color-text-secondary: #f6f6f6;
+
+  --border-1: #022754;
+  --border-2: #162330;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rajdhani", sans-serif;
+}
+
+p,
+a,
+span {
+  font-family: "Roboto", sans-serif;
+}
