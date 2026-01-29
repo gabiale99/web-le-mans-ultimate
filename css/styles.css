@@ -247,6 +247,7 @@ header {
         display: flex;
         flex-direction: column;
         gap: 0.4rem;
+
         .title-1 {
           color: var(--color-primary);
           font-size: 2rem;
@@ -266,6 +267,28 @@ header {
 
       .border {
         border-right: 1px solid var(--border-1);
+      }
+    }
+  }
+}
+
+/* Hero móvil */
+
+@media screen and (max-width: 430px) {
+  .container-hero {
+    .container-text-hero {
+      width: 90%;
+      margin: auto;
+      padding: 4rem 0;
+
+      .span-hero {
+        width: 50%;
+      }
+
+      .container-caracteristicas-hero {
+        .caracteristicas {
+          padding: 0;
+        }
       }
     }
   }
