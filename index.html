@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Le mans ultimate ARG</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/script.js" defer></script>
   </head>
   <body>
     <header>
@@ -14,8 +15,27 @@
             <img src="./img/logo/logo-1.avif" alt="Logo" />
             <h1>Le mans ultimate arg</h1>
           </a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon svg-menu icon-tabler icons-tabler-outline icon-tabler-menu-3"
+            id="svg-menu"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M10 6h10" />
+            <path d="M4 12h16" />
+            <path d="M7 12h13" />
+            <path d="M4 18h10" />
+          </svg>
         </div>
-        <nav>
+        <nav class="navbar-close" id="navbar">
           <ul>
             <li><a href="#">Características</a></li>
             <li><a href="#">Coches</a></li>
@@ -23,9 +43,18 @@
             <li><a href="#">Noticias</a></li>
           </ul>
         </nav>
-        <div class="container-buttons-nav">
+        <div
+          class="container-buttons-nav-close container-buttons-nav-desktop"
+          id="buttons-nav"
+        >
           <a href="#" class="sesion">Inicio sesión</a>
-          <a href="#" class="comprar">Compra</a>
+          <a
+            href="https://store.steampowered.com/app/2399420/Le_Mans_Ultimate/?l=spanish"
+            rel="noreferrer"
+            target="_blank"
+            class="comprar"
+            >Compra</a
+          >
         </div>
       </div>
     </header>
@@ -40,7 +69,11 @@
             iconico circuito de la Sarthe
           </p>
           <div class="container-buttons-hero">
-            <a href="#" class="comprar"
+            <a
+              href="https://store.steampowered.com/app/2399420/Le_Mans_Ultimate/?l=spanish"
+              rel="noreferrer"
+              target="_blank"
+              class="comprar"
               >Comprar - $30.00 Dol
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +91,11 @@
                 <path d="M9 6l6 6l-6 6" />
               </svg>
             </a>
-            <a href="#" class="trailer"
+            <a
+              href="https://www.youtube.com/watch?v=17SwQIIhtpA"
+              rel="noreferrer"
+              target="_blank"
+              class="trailer"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
